@@ -867,15 +867,13 @@ a:link {
 
 .chiffreprojet{
   top:40px;
-  float:right;
-  right:150px;
+  right:-130px;
 }
 
 .intituleprojet
 {
-  top:140px;
+  top:110px;
   right:-100px;
-  float:right;
 }
 
   .p1,
@@ -923,6 +921,7 @@ a:link {
 }
 
 @media screen and (max-width: 900px) {
+
   #leftnavbar {
     padding-left: 20px;
     padding-right: 20px;
