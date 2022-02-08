@@ -44,13 +44,13 @@ a:link {
 }
 
 ::-webkit-scrollbar-track-piece {
-  background-color: #fffcff;
+  background-color: #d8d8d8;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
   height: 30px;
   -webkit-border-radius: 10px;
-  background-color: #191919;
+  background-color: #fff;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
@@ -667,6 +667,11 @@ a:link {
   right: -50px;
 }
 
+.ptel
+{
+  display:none;
+}
+
 .miniatureprojet {
   width: 400px;
   height: 300px;
@@ -849,6 +854,30 @@ a:link {
     display: none;
   }
 
+  .friseformatel {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ptel
+{
+  display:block;
+  width:100%;
+}
+
+.chiffreprojet{
+  top:40px;
+  float:right;
+  right:150px;
+}
+
+.intituleprojet
+{
+  top:140px;
+  right:-100px;
+  float:right;
+}
+
   .p1,
   .p2,
   .p3,
@@ -866,19 +895,26 @@ a:link {
     display: none;
   }
 
+  .friseexp {
+    display: none;
+  }
+  
   .containerpttel {
     display: block;
   }
 
-  .friseexp {
-    display: none;
+  .timeline2tel {
+    width: 2px;
+    height: 700px;
+    background: #093148;
+    position: relative;
+    left: -356px;
+    top: 65px;
   }
+
 }
 
 @media screen and (max-width: 945px) {
-  #rightnavbar {
-    display: none;
-  }
 
   .friseformatel {
     display: flex;
@@ -993,7 +1029,7 @@ h2 {
   padding-top: 0;
   padding-bottom: 0;
   box-sizing: border-box;
-  height: 20px;
+  height:auto;
 }
 
 .explication {
